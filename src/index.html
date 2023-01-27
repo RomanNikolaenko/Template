@@ -1,13 +1,98 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Template</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="utf-8">
+	<title>Template</title>
+	<base href="/">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon"
+				sizes="180x180"
+				href="assets/icons/apple-touch-icon.png">
+	<link rel="icon"
+				type="image/png"
+				href="assets/icons/favicon-32x32.png"
+				sizes="32x32">
+	<link rel="icon"
+				type="image/png"
+				href="assets/icons/favicon-16x16.png"
+				sizes="16x16">
+	<link rel="manifest"
+				href="manifest.json">
+	<link rel="shortcut icon"
+				href="assets/icons/favicon.svg">
+	<link rel="mask-icon"
+				href="assets/icons/safari-pinned-tab.svg"
+				color="#5bbad5">
+
+	<meta name="Description"
+				content="">
+	<meta property="og:site_name"
+				content="">
+	<meta property="og:url"
+				content="/">
+	<meta property="og:title"
+				content="">
+	<meta property="og:type"
+				content="">
+	<meta property="og:description"
+				content="">
+	<meta property="og:image"
+				content="assets/icons/android-chrome-256x256.png">
+	<meta name="twitter:card"
+				content="">
+	<meta name="twitter:site"
+				content="">
+	<meta name="twitter:title"
+				content="">
+	<meta name="twitter:description"
+				content="">
+	<meta name="twitter:image"
+				content="assets/icons/android-chrome-256x256.png">
+
+	<meta name="msapplication-config"
+				content="assets/icons/browserconfig.xml">
+	<meta name="theme-color"
+				content="#ffffff">
+	<meta name="robots"
+				content="index,follow">
 </head>
+
 <body>
-  <app-root></app-root>
+	<app-root id="root">
+		<style type="text/css">
+			body {
+				margin: 0;
+			}
+
+			.loader-wrapper {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.loader-spinner {
+				border: 3px solid;
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				animation: spin 2s linear infinite;
+				border-color: #274d3f #e9e9e9 #e9e9e9 #e9e9e9;
+			}
+
+			@keyframes spin {
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+		</style>
+		<div class="loader-wrapper">
+			<div class="loader-spinner"></div>
+		</div>
+	</app-root>
 </body>
+
 </html>

@@ -1,0 +1,9 @@
+@mixin property($property, $maxSize, $minSize, $maxWidth: 1640, $minWidth: 320) {
+  #{$property}: clamp(
+    #{$minSize + px},
+    calc(
+      #{$minSize + px} + (#{$maxSize} - #{$minSize}) * ((100vw - #{$minWidth + px}) / (#{$maxWidth} - #{$minWidth}))
+    ),
+    #{$maxSize + px}
+  );
+}

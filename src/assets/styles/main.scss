@@ -1,0 +1,33 @@
+@forward "./fonts";
+@forward "./reset";
+
+:root {
+	--base: #111111;
+	--white: #ffffff;
+	--grey: #4b5356;
+	--error: #e41212;
+	--primary: #1f1f1d;
+
+	--padding: 20px;
+	--mainFonts: "SFUIDisplay";
+}
+
+.container {
+	width: 100%;
+	padding: 0 var(--padding);
+	max-width: 1640px;
+	margin: 0 auto;
+}
+
+[id="root"] {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
+
+.page-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+}

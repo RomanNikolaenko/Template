@@ -1,0 +1,55 @@
+<svg width="2160" height="2160" viewBox="0 0 2160 2160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_6_2)">
+<path d="M1080 155C1598 155 1737.4 181.162 1858.12 301.879C1978.84 422.596 2005 562 2005 1080C2005 1598 1978.84 1736.66 1858.12 1858.12C1737.4 1979.59 1598 2005 1080 2005C562 2005 422.596 1978.84 301.879 1858.12C181.162 1737.4 155 1598 155 1080C155 562 180.414 423.343 301.879 301.879C423.343 180.414 562 155 1080 155Z" fill="url(#paint0_radial_6_2)"/>
+</g>
+<path opacity="0.95" d="M1080 2005C562 2005 422.596 1978.84 301.879 1858.12C181.162 1737.4 155 1598 155 1080C155 562 181.162 423.343 301.879 301.879C422.596 180.414 562 155 1080 155C1598 155 1737.4 181.162 1858.12 301.879C1978.84 422.596 2005 562 2005 1080C2005 1598 1979.59 1736.66 1858.12 1858.12C1736.66 1979.59 1598 2005 1080 2005Z" fill="white"/>
+<g filter="url(#filter1_f_6_2)">
+<path d="M1080 155C1598 155 1737.4 181.162 1858.12 301.879C1978.84 422.596 2005 562 2005 1080C2005 1598 1979.59 1736.66 1858.12 1858.12C1736.66 1979.59 1598 2005 1080 2005C1005.73 2005 939.251 2004.46 879.489 2003.19L1436.91 1320.79L1631.99 1083.89L874.761 156.876C935.739 155.55 1003.77 155 1080 155ZM324.558 280.444L993.968 1083.27L327.784 1882.24C318.973 1874.65 310.379 1866.62 301.879 1858.12C181.162 1737.4 155 1598 155 1080C155 562 181.162 423.343 301.879 301.879C309.339 294.373 316.87 287.233 324.558 280.444Z" fill="url(#paint1_radial_6_2)"/>
+</g>
+<path d="M1080 155C1598 155 1737.4 181.162 1858.12 301.879C1978.84 422.596 2005 562 2005 1080C2005 1598 1979.59 1736.66 1858.12 1858.12C1736.66 1979.59 1598 2005 1080 2005C1005.35 2005 938.561 2004.46 878.559 2003.17L1436.91 1319.63L1631.99 1082.74L875.686 156.856C936.428 155.545 1004.16 155 1080 155ZM325.115 279.953L993.968 1082.12L327.222 1881.76C318.607 1874.31 310.199 1866.44 301.879 1858.12C181.162 1737.4 155 1598 155 1080C155 562 181.162 423.343 301.879 301.879C309.519 294.191 317.234 286.889 325.115 279.953Z" fill="url(#paint2_radial_6_2)"/>
+<defs>
+<filter id="filter0_f_6_2" x="55" y="55" width="2050" height="2050" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_6_2"/>
+</filter>
+<filter id="filter1_f_6_2" x="145" y="145" width="1870" height="1870" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_6_2"/>
+</filter>
+<radialGradient id="paint0_radial_6_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(155 2005) rotate(180) scale(2616.3)">
+<stop stop-color="#FFBB3D"/>
+<stop offset="0.0937318" stop-color="#FCA64A"/>
+<stop offset="0.21491" stop-color="#F87850"/>
+<stop offset="0.300269" stop-color="#F86248"/>
+<stop offset="0.390934" stop-color="#F85344"/>
+<stop offset="0.523158" stop-color="#E82365"/>
+<stop offset="0.681615" stop-color="#BC029F"/>
+<stop offset="0.828794" stop-color="#9A01B5"/>
+<stop offset="1" stop-color="#8C00BE"/>
+</radialGradient>
+<radialGradient id="paint1_radial_6_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2005 155) scale(2616.3)">
+<stop stop-color="#FFBB3D"/>
+<stop offset="0.0937318" stop-color="#FCA64A"/>
+<stop offset="0.21491" stop-color="#F87850"/>
+<stop offset="0.300269" stop-color="#F86248"/>
+<stop offset="0.390934" stop-color="#F85344"/>
+<stop offset="0.523158" stop-color="#E82365"/>
+<stop offset="0.681615" stop-color="#BC029F"/>
+<stop offset="0.828794" stop-color="#9A01B5"/>
+<stop offset="1" stop-color="#8C00BE"/>
+</radialGradient>
+<radialGradient id="paint2_radial_6_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2005 155) scale(2616.3)">
+<stop stop-color="#FFBB3D"/>
+<stop offset="0.0937318" stop-color="#FCA64A"/>
+<stop offset="0.21491" stop-color="#F87850"/>
+<stop offset="0.300269" stop-color="#F86248"/>
+<stop offset="0.390934" stop-color="#F85344"/>
+<stop offset="0.523158" stop-color="#E82365"/>
+<stop offset="0.681615" stop-color="#BC029F"/>
+<stop offset="0.828794" stop-color="#9A01B5"/>
+<stop offset="1" stop-color="#8C00BE"/>
+</radialGradient>
+</defs>
+</svg>
