@@ -1,0 +1,43 @@
+<div *ngIf="displayNewUpdatesAvailable"
+		 [@flyFromTheRight]
+		 class="notification">
+	<mat-icon svgIcon="logo"
+						class="notification__icon"></mat-icon>
+
+	<div class="notification__wrap">
+		<div class="notification__title">
+			New Updates Available
+		</div>
+		<div class="notification__text">
+			Bringing you the latest improvements in stability, performance and delight!
+		</div>
+	</div>
+
+	<button (click)="onRefreshPageClick()"
+					type="button"
+					class="notification__btn">
+		<mat-icon svgIcon="refresh"
+							class="notification__refresh"></mat-icon>Refresh now</button>
+</div>
+
+<div *ngIf="systemError"
+		 [@flyFromTheRight]
+		 class="notification">
+	<mat-icon svgIcon="logo"
+						class="notification__icon"></mat-icon>
+
+	<div class="notification__wrap">
+		<div class="notification__title">
+			Something went wrong
+		</div>
+		<div class="notification__text error">
+			{{ systemError.Text }}
+		</div>
+	</div>
+
+	<button (click)="onRefreshPageClick()"
+					type="button"
+					class="notification__btn">
+		<mat-icon svgIcon="refresh"
+							class="notification__refresh"></mat-icon>Reload Page</button>
+</div>
